@@ -1,0 +1,135 @@
+@media only screen and (min-width: 1200px) {
+	/* .p-card{
+		margin-right:4% !important;
+	} */
+	.head-intro{
+		font-size: 34px;
+	}
+	.article-card{
+		width:85%;
+	}
+}
+
+@media only screen and (max-width: 1199px){
+	.head-intro{
+		font-size: 30px;
+	}
+}
+/* @media only screen and (min-width: 768px){
+	.btn-project{
+		transform:translate(-2%,0);
+	}
+} */
+@media only screen and (max-width: 601px){
+	.client-images{
+		height: 40% !important;
+		width: 40% !important;
+		margin-left: 12%;
+	}
+	.p-card{
+		width:70%;
+		margin:0 auto 5px auto;
+	}
+	.card-carousel{
+		transform:scale(0.8);
+	}
+	.about-us{
+		transform:scale(0.8) translate(-20px,0);
+	}
+	.head-intro{
+		transform:scale(0.8);
+	}
+	.intro-text{
+		background-size: 30% 100%;
+		padding: 50px 0;
+	}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 602px){
+	.p-card{
+		width:65%;
+		height: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.first-row{
+		height: 50%;
+	}
+	.head-intro{
+		margin-top:200px !important;
+		margin-bottom: 200px !important;
+	}
+	.about-us{
+		padding: 2%;
+		width: 80%;
+		height: 80%;
+		transform:translate(-15%,0);
+	}
+	.row-about-us{
+		width: 100%;
+		overflow: none;
+	}
+	.client-images{
+		height: 60% !important;
+		width: 60% !important;
+	}
+}
+@media only screen and (max-width:1339px) and (min-width: 992px){
+	.col-footer-vec{
+	transform:translate(3.5%,0);
+	margin-top: 7%;
+}
+}
+
+@media only screen and (max-width: 1038px){
+	.left-footer{
+		transform:translate(-8%,30%);
+		
+	}
+	.footer-logo{
+		height: 65%;
+		width:65% ;
+	}
+}
+
+@media only screen and (max-width: 826px){
+	.footer-vec{
+		margin-right: 5%;
+	}
+	.col-footer-vec{
+		transform:translate(0,0);
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.icon-row{
+		width: 80%;
+	}
+	.article-card{
+		width:75%;
+	}
+}
+
+@media only screen and (max-width: 575px){
+	.end{
+		background-size: cover;
+	}
+	.footer-vec{
+		margin-top: 20px;
+		height: 86% !important;
+		width:50% !important;
+	}
+	.col-footer-vec{
+		margin-bottom: 20px
+	}
+	.left-footer-col,.left-footer{
+		transform:translate(0,0);
+	}
+	.footer-logo{
+		height: 50%;
+		width: 40%;
+	}
+}
+
+/* our-projects */
+@media only screen and (max-width: )
