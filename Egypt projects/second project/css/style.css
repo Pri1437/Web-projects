@@ -1,0 +1,390 @@
+/* --------------------------index page-------------------- */
+
+/*------------------intro----------------- */
+*{
+	box-sizing: border-box;
+}
+body{
+	overflow-x: hidden;
+}
+.intro{
+	display: flex;
+	height: 100vh;
+	align-items: center;
+}
+.fullscreen-video-wrap{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100vh;
+	overflow: hidden;
+}
+.fullscreen-video-wrap video{
+	min-width: 100%;
+	min-height: 100%;
+}
+.video-cover{
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	background-color:rgba(189, 71, 35, 0.938);
+	opacity:0.83;
+	z-index: 1;
+}
+.header-content{
+	position: absolute;
+	top:0;
+	z-index: 10;
+	width:100%;
+	height: 100vh;
+	padding-top: 2rem;
+}
+.header-content .navbar .collapse{
+	z-index:20;	
+}
+.header-content .navbar .collapse .nav-link{
+	z-index:inherit;
+}
+section.intro .header-content .custom-toggler{
+	border: none;
+}
+section.intro .header-content .custom-toggler:focus{
+	outline: none;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+	font-size: 1.2rem;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: white;
+}
+.navbar-light .navbar-nav .nav-link:focus{
+	color: white;
+	border-bottom: 3px solid #303174;
+	outline: none;
+}
+.navbar-light .navbar-nav .nav-link:active{
+	color: white;
+	border-bottom: 3px solid #303174;
+	outline: none;
+}
+.company{
+	display:inline-block;
+	width: 14vw;
+	height: 41vh;
+	position: absolute;
+	top: 1vh;
+	right: 43vw;
+	padding: 5px;
+}
+.content1{
+	display: flex;
+	position: absolute;
+	top: 65%;
+	width: 100%;
+	justify-content: center;
+}
+.content2{
+	display: flex;
+	position: absolute;
+	top: 72%;
+	width: 100%;
+	justify-content: center;
+}
+.content .text{
+	margin: 0 30%;
+}
+.content2 .btn{
+	background-color: #303174;
+	border-color: #303174;
+	color: white;
+	border-radius:20px;
+	width: 8.5rem;
+}
+.content2 .btn.text:focus{
+	outline:none;
+	background-color: #303174;
+	border-color: #303174;
+	box-shadow: none;
+}
+/* ---------------------services--------------------- */
+.services{
+	margin-top: 3.5rem;
+	margin-bottom:3.5rem;
+}
+.services .container .row .col-md-4 .card .card-img-top{
+	padding:1rem;
+	/* height: 60%; */
+	width: 55%;
+}
+.services .container .row .col-md-4 .card{
+	border:none;
+	text-align: center;
+	margin-right: 12%;
+}
+/* ---------------------places----------------------- */
+.places{
+	margin-top:1rem;
+	margin-bottom:3rem;
+}
+.places .container .row .col-md-4 .places-img{
+	width: 48%;
+	height:88%;
+	margin-right:26.5%;
+	transform: rotate(24deg);
+	border-radius:2rem;
+}
+.places .container,.places .container .row{
+	margin-top:3.5rem;
+}
+/* ---------------------hotels------------------------- */
+section.hotels{
+	background-image: url("../images/imgs/subtle-pattern-1.jpg");
+	margin-top: 2rem;
+	padding: 4rem 0;
+}
+section.hotels .container .row .col-md-4{
+	padding: 2rem;
+}
+section.hotels .container .row .col-md-4 .hotel-cards{
+	border-radius:1rem;
+	width: 80%;
+	margin: auto;
+}
+.shadow{
+	box-shadow: 4px 0.5rem 1rem #b5b9bd !important; 
+}
+.card-text{
+	color:rgb(167, 160, 160);
+}
+.fas.fa-map-marker{
+	color: #ED7830;
+}
+.fas.fa-money-bill-wave-alt{
+	color: #ED7830;	
+}
+.fas.fa-lightbulb{
+	color: #ED7830;
+}
+.hotels .container .btn.text{
+	background-color: #303174;
+	border-color: #303174;
+	color: white;
+	border-radius:20px;
+	width: 8.5rem;
+	margin-right: 6.2vmax;
+	box-shadow: 4px 0.5rem 1rem #b5b9bd !important; 	
+}
+.hotels .container .btn.text:focus{
+	outline:none;
+	background-color: #303174;
+	border-color: #303174;
+	box-shadow: none;
+}
+
+/* -----------------------------contact us------------------ */
+section.contact-us{
+	width: 100vw;
+	background-image: url("../images/imgs/contact us.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 1rem 0;
+}
+section.contact-us .heading-contact-us{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left:0.8cm;
+}
+section.contact-us .container{
+	margin-bottom: 2%;
+}
+section.contact-us .container form{
+	padding:2%;
+}
+section.contact-us .container .form-group .form-control{
+	border-radius: 0.5rem;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+section.contact-us .container .form-group .form-control:focus{
+	outline:none;
+	box-shadow: none;
+}
+section.contact-us .container .row .submit-btn .btn.text{
+	background-color: #303174;
+	border-color: #303174;
+	color: white;
+	border-radius:20px;
+	width: 8.5rem;
+	margin-right: 24%;
+}
+section.contact-us .container .row .submit-btn .btn.text:focus{
+	background-color: #303174;
+	border-color: #303174;
+	color: white;
+	box-shadow: none;
+	outline: none;
+}
+
+/* -----------------------------search--------------------- */
+section.search{
+	padding: 1rem 0;
+	width: 100vw;
+	background-color: #FF604B;
+}
+section.search .heading-search{
+	margin-top: 1%;
+	margin-bottom: 2%;
+	margin-left:0.8cm;
+}
+section.search .container .form-control{
+	border-radius: 0.5rem;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3%;
+}
+section.search .container .form-control:focus{
+	outline:none;
+	box-shadow: none;
+}
+section.search .container .row .search-btn .btn.text{
+	background-color: #303174;
+	border-color: #303174;
+	color: white;
+	border-radius:20px;
+	width: 8.5rem;
+	margin-right: 24%;
+	margin-bottom: 1.4rem;
+}
+section.search .container .row .search-btn .btn.text:focus{
+	background-color: #303174;
+	border-color: #303174;
+	color: white;
+	box-shadow: none;
+	outline: none;
+}
+/* -----------------------------footer---------------------- */
+section.footer{
+	width: 100vw;
+	background-image: linear-gradient(to bottom left,#F76F71,#D6537B,#C44B7F,rgb(141, 65, 137),#693780,#47337A);
+}
+section.footer .container .row .col-sm-6 .container .row .fab{
+	color:white;
+	padding: 0.6rem;
+}
+section.footer .container .row .col-sm-6 .container .row .fa-instagram:hover{
+	color: #ca55c4;
+}
+section.footer .container .row .col-sm-6 .container .row .fa-facebook-f:hover{
+	color:  #3b5998;
+}
+section.footer .container .row .col-sm-6 .container .row .fa-twitter:hover{
+	color: #00acee;
+}
+section.footer .container .row .col-sm-6 .container .row .links{
+	text-decoration: none;
+	color: rgba(226, 224, 224, 0.945);
+}
+section.footer .container .row .col-sm-6 .container .row .col-sm-4{
+	text-align: center;
+}
+section.footer .container{
+	padding-top: 6%;
+	padding-bottom: 3%;
+}
+
+/*! ------------------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------about us---------------------------------------------------- */
+/* ----------------navbar------------- */
+nav.navbar.about-us{
+	height: 19vh;
+	width: 100vw;
+	background-color: #EB7636;
+}
+/* .navbar.about-us .container .company{
+	height:80%;
+} */
+.navbar.about-us .container .company {
+	height: 100%;
+	margin-right:auto;
+	margin-left: auto;
+}
+.navbar.about-us .container .company .img-fluid {
+	height: 100%;
+	margin-right:1.6vw;
+	margin-left: auto;
+}
+.navbar.navbar-light.about-us .container .navbar-collapse .nav-item .nav-link{
+	font-size: 1rem;
+}
+.navbar .container .custom-toggler{
+	border:none;
+}
+.navbar .container .custom-toggler:focus{
+	border:none;
+	outline:none;
+}
+.navbar.about-us .container .navbar-collapse .navbar-nav{
+	background-color: #EB7636;
+}
+/* ------------------info------------------------ */
+section.info .heading-info{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+section.info{
+	padding:0.5% 0 9% 1.2rem;
+	background-image: url("../images/imgs/about.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:100vw;
+}
+section.info .container{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	line-height: 1cm;
+	font-size: 1.1rem;
+	color: white;
+}
+section.info .info-btn{
+	text-align: center;
+}
+section.info .info-btn .btn.text{
+	background-color: #303174;
+	border-color: #303174;
+	color: white;
+	border-radius:20px;
+	width: 8.5rem;
+}
+
+/* -------------------our team------------------------- */
+section.our-team{
+	padding: 3%;
+}
+section.our-team .container .row .col-md-4{
+	padding-top:2%;
+	padding-bottom: 2%;
+}
+section.our-team .heading-our-team{
+	text-align: center;
+}
+section.our-team .container .row .col-md-4 .team-cards{
+	width: 80%;
+	margin:auto;
+	border-radius:20px;
+}
+section.our-team .container .row .col-md-4 .team-cards .card-img-top{
+	border-radius:20px;
+}
+/*! -------------------------------------------------------------------- */
+
+/* * =========================== our commitment ================ */
+ .navbar.our-commitment{
+	height: 19vh;
+	width: 100vw;
+	background-color: #EB7636;
+ }
